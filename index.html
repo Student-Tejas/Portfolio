@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petya Nikolova - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header class="sticky-header">
+        <div class="logo">
+            <a href="#"><img src="images/one-page-love-award-left.png"></a>
+        </div>
+        <nav class="nav-links">
+            <a href="#" src="aboutme.html">About Me</a>
+            <a href="#testimonials">Testimonials</a>
+        </nav>
+    </header>
+
+    <!-- Main Body -->
+    <main>
+        <div class="button-container">
+            <button id="colorButton" class="color-change-btn">Mix It!</button>
+        </div>
+
+        <div class="container">
+            <div class="dynamic-circle"></div>
+            <div class="greeting">Good</div>
+            <div id="timeOfDay" class="greeting">Morning,</div>
+            <div class="greeting">I am</div>
+            <div class="greeting">Petya</div>
+       
+        </div>
+
+<!---
+        <section class="intro-section">
+          
+          
+             
+           
+             <div class="intro-container" style="color: orange;border:1px solid gold;">
+                <ul>
+                    <span>
+                    Web Developer, Based in London</span><br>
+                    <span>I like building beautiful websites</span><br>
+                    <span>and bringing creative designs to life!</span>
+                </ul>
+            
+        </section>-->
+
+        <div class="description rellax" data-rellax-speed="0.5" style="
+        padding: 20px; /* Adjust padding inside the div */
+        margin: 20px; /* Adjust margin outside the div */
+        border: 2px solid darkorange; /* Add border to the div for better visualization */
+        box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+        position: relative; /* Ensure positioning context for absolutely positioned elements */
+         /* Optional: Set background color for visibility */
+    ">
+        <span class="description__decoration" style="border-color: darkviolet;"></span>
+    
+        <h1 style="color: orange; text-align: center;">
+            <span>Web Developer, based in London.</span><br>
+            <span>I like building beautiful websites</span><br>
+            <span>and bringing creative designs to life!</span>
+        </h1>
+    </div>
+    
+
+       
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2 style="color:white;">Projects <span class="yellow-dot"></span></h2>
+            <span class=" line"></span>
+           <!---
+            <div class="projects-container">
+               
+                <div></div><a href="#" class="project-item" style="background-image: url('images/savian.934b32d9.png');"></a>
+                <a href="#" class="project-item" style="background-image: url('images/mycoworks.615e5c63.png');"></a>
+                <a href="#" class="project-item" style="background-image: url('images/preto.848c31f7.png');"></a>
+                <a href="#" class="project-item" style="background-image: url('images/lindenstaub.692ccad0.png');"></a>
+                <a href="#" class="project-item" style="background-image: url('images/adithana.8612e655.png');"></a>
+            </div>-->
+
+            <div class="projects-container" >
+                <div class="corner-line"></div>
+                <a href="#" class="project-item" style="background-image: url('images/savian.934b32d9.png');"></a>
+                <div class="project-box"></div>
+            </div>
+            <div class="projects-container">
+                <div class="corner-line1"></div>
+                <div class="project-box"></div>
+                <a href="#" class="project-item" style="background-image: url('images/mycoworks.615e5c63.png');"></a>
+                <div class="overlay">
+                    <div class="text">Hello World</div>
+                  </div>
+             </div>
+            <div class="projects-container">
+                <div class="corner-line"></div>
+                <a href="#" class="project-item" style="background-image: url('images/preto.848c31f7.png');"></a>
+                <div class="project-box"></div>
+            </div>
+            <div class="triangle-shape rellax" data-rellax-speed="-1" style="width: 20%; height: 20%; top: 60%; right: 72.2%; transform: rotate(45deg); stroke: darkviolet;"><svg viewBox="0 0 100 100"><polygon id="e1_polygon" points="0 0, 0 100, 100 0"></polygon>Sorry, your browser does not support inline SVG.</svg></div>
+
+
+            <div class="projects-container">
+                <div class="corner-line"></div>
+                <div class="project-box"></div>
+                <a href="#" class="project-item" style="background-image: url('images/lindenstaub.692ccad0.png');"></a>
+               
+            </div>
+           <div class="projects-container">
+            <a href="#" class="project-item" style="background-image: url('images/adithana.8612e655.png');"></a>
+            <div class="project-box"></div>
+        </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials-section">
+            <h3 style="text-align:right;color:white">Testimonials <span class="yellow-dot"></span></h3>
+            <span class=" line"></span>
+            <!---
+            <div class="testimonials-container">
+                <div class="testimonial-slide">
+                    <p>"Petya is an amazing developer!" - Client A</p>
+                </div>
+                <div class="testimonial-slide">
+                    <p>"Outstanding work and dedication!" - Client B</p>
+                </div>
+                <div class="testimonial-slide">
+                    <p>"Petya exceeded our expectations!" - Client C</p>
+                </div>
+                <div class="testimonial-slide">
+                    <p>"Highly recommended!" - Client D</p>
+                </div>
+                <button class="arrow-left">&#10094;</button>
+                <button class="arrow-right">&#10095;</button>
+            </div>-->
+        </section>
+
+        <div id="testimonials__slider" class="swiper-container swiper-container-fade swiper-container-initialized swiper-container-horizontal">
+            <div class="swiper-wrapper" style="transition-duration: 0ms;">
+                <div class="swiper-slide testimonial swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="3" style="width: 800px; transition-duration: 0ms; opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                    <div class="testimonial__content"><span class="quote" style="color: darkviolet;">"</span>
+                        <blockquote style="border-color: orange;"><p class="testimonial__content__text slide-item-animate"  style="color:white">Petya worked with us on developing the website for our marketing agency Adithana Marketing. We managed to establish a great partnership together based on trust and professionalism. Petya delivered all tasks on time, and we managed to launch the website according to our plan with very satisfactory results. If you need a very qualified expert for your website development, we will highly recommend hiring Petya!</p>
+                            <span class="testimonial__decoration__hide"></span><span class="testimonial__decoration__wave" style="border-color: orange;"></span></blockquote></div>
+                            <div class="testimonial__author"><img class="testimonial__avatar slide-item-animate" src="/images/sonya.f297ccc3.jpg" alt="Sonya Trivedi image">
+                                <div class="testimonial__author__details"><p class="testimonial__author__name slide-item-animate"  style="color:white">- Sonya Trivedi</p>
+                                    <p class="testimonial__author__title slide-item-animate"  style="color:white"  style="color:white">Founder and CEO, Adithana Marketing</p></div></div></div>
+                                    <div class="swiper-slide testimonial swiper-slide-active" data-swiper-slide-index="0" style="width: 800px; transition-duration: 0ms; opacity: 1; transform: translate3d(-800px, 0px, 0px);">
+                                        <div class="testimonial__content"><span class="quote" style="color: darkviolet;">"</span>
+                                            <blockquote style="border-color: orange;"><p class="testimonial__content__text slide-item-animate" style="color:white">Petya is a delightful developer to work with. She is a dedicated problem solver who has the rare ability to keep focused on the task at hand, while being a very transparent communicator. Petya made sure our project was completed on time, and delivered high quality work, even under time pressure. I would be happy to recommend Petya to anyone, and look forward to working with her again.</p>
+                                                <span class="testimonial__decoration__hide"></span><span class="testimonial__decoration__wave" style="border-color: orange;"></span></blockquote></div>
+                                                <div class="testimonial__author"><img class="testimonial__avatar slide-item-animate" src="/images/kjartan.0d5e0f12.jpg" alt="Kjartan Manvelyan image">
+                                                    <div class="testimonial__author__details"><p class="testimonial__author__name slide-item-animate" style="color:white">- Kjartan Manvelyan</p>
+                                                        <p class="testimonial__author__title slide-item-animate" style="color:white">Managing Director, Manvelyan Consulting</p></div></div></div>
+                                                        <div class="swiper-slide testimonial swiper-slide-next" data-swiper-slide-index="1" style="width: 800px; transition-duration: 0ms; opacity: 0; transform: translate3d(-1600px, 0px, 0px);">
+                                                            <div class="testimonial__content"><span class="quote" style="color: darkviolet;">"</span>
+                                                                <blockquote style="border-color: orange;"><p class="testimonial__content__text slide-item-animate"  style="color:white">I had the chance to work with Petya on a pair of website projects. I found her to be very responsive, a fantastic problem solver, and a very clear communicator. I was pleasantly surprised that despite being separated by 8 hours I never found myself waiting for answers.  I look forward to working with Petya again in the future.</p>
+                                                                    <span class="testimonial__decoration__hide"></span><span class="testimonial__decoration__wave" style="border-color: orange;"></span></blockquote></div>
+                                                                    <div class="testimonial__author"><img class="testimonial__avatar slide-item-animate" src="/images/gemma.1846f3d3.jpg" alt="Sonya Trivedi image">
+                                                                        <div class="testimonial__author__details"><p class="testimonial__author__name slide-item-animate"  style="color:white">- Gemma Edward Aron</p><p class="testimonial__author__title slide-item-animate"  style="color:white">Executive Producer, MycoWorks Inc</p></div></div></div>
+                                                                        <div class="swiper-slide testimonial" data-swiper-slide-index="2" style="width: 800px; transition-duration: 0ms; opacity: 0; transform: translate3d(-2400px, 0px, 0px);">
+                                                                            <div class="testimonial__content"><span class="quote" style="color: darkviolet;">"</span><blockquote style="border-color: orange;"><p class="testimonial__content__text slide-item-animate"  style="color:white">It is rare to find a developer who is equally talented across design &amp; programming but Petya really is. She is great at understanding what the client needs &amp; interpreting their vision both from a UX/UI perspective &amp; also a practical point of view. I work with many corporates, consulting on their Digital Transformation programmes &amp; for any technical training, I use Petya as my lead lecturer for workshops &amp; webinars.</p><span class="testimonial__decoration__hide"></span>
+                                                                                <span class="testimonial__decoration__wave" style="border-color: orange;"></span></blockquote></div><div class="testimonial__author"><img class="testimonial__avatar slide-item-animate" src="/images/alice.fe77c2bd.jpg" alt="Alice Tatton Brown image">
+                                                                                    <div class="testimonial__author__details"><p class="testimonial__author__name slide-item-animate" style="color:white">- Alice Tatton Brown</p><p class="testimonial__author__title slide-item-animate">Head of Digital Transformation, Le Wagon</p></div></div></div>
+                                                                                    <div class="swiper-slide testimonial swiper-slide-duplicate-prev" data-swiper-slide-index="3" style="width: 800px; transition-duration: 0ms; opacity: 0; transform: translate3d(-3200px, 0px, 0px);">
+                                                                                        <div class="testimonial__content"><span class="quote" style="color: darkviolet;">"</span>
+                                                                                            <blockquote style="border-color: orange;"><p class="testimonial__content__text slide-item-animate"  style="color:white">Petya worked with us on developing the website for our marketing agency Adithana Marketing. We managed to establish a great partnership together based on trust and professionalism. Petya delivered all tasks on time, and we managed to launch the website according to our plan with very satisfactory results. If you need a very qualified expert for your website development, we will highly recommend hiring Petya!</p>
+                                                                                                <span class="testimonial__decoration__hide"></span><span class="testimonial__decoration__wave" style="border-color: orange;"></span></blockquote></div>
+                                                                                                <div class="testimonial__author"><img class="testimonial__avatar slide-item-animate" src="/static/media/sonya.f297ccc3.jpg" alt="Sonya Trivedi image"><div class="testimonial__author__details"><p class="testimonial__author__name slide-item-animate">- Sonya Trivedi</p><p class="testimonial__author__title slide-item-animate"  style="color:white">Founder and CEO, Adithana Marketing</p></div></div></div>
+                                                                                                <div class="swiper-slide testimonial swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 800px; transition-duration: 0ms; opacity: 0; transform: translate3d(-4000px, 0px, 0px);">
+                                                                                                    <div class="testimonial__content"><span class="quote" style="color: darkviolet;">"</span><blockquote style="border-color: orange;"><p class="testimonial__content__text slide-item-animate" style="color:white">Petya is a delightful developer to work with. She is a dedicated problem solver who has the rare ability to keep focused on the task at hand, while being a very transparent communicator. Petya made sure our project was completed on time, and delivered high quality work, even under time pressure. I would be happy to recommend Petya to anyone, and look forward to working with her again.</p><span class="testimonial__decoration__hide"></span>
+                                                                                                        <span class="testimonial__decoration__wave" style="border-color: orange;"></span></blockquote></div><div class="testimonial__author"><img class="testimonial__avatar slide-item-animate" src="/static/media/kjartan.0d5e0f12.jpg" alt="Kjartan Manvelyan image">
+                                                                                                            <div class="testimonial__author__details"><p class="testimonial__author__name slide-item-animate"  style="color:white">- Kjartan Manvelyan</p><p class="testimonial__author__title slide-item-animate"  style="color:white">Managing Director, Manvelyan Consulting</p></div></div></div></div>
+                                                                                                            <div class="swiper-button-prev" style="background-color: darkviolet;" tabindex="0" role="button" aria-label="Previous slide"></div>
+                                                                                                            <div class="swiper-button-next" style="background-color: darkviolet;" tabindex="0" role="button" aria-label="Next slide"></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+
+
+            <div class="swiper-button-prev" style="background-color: darkviolet;" tabindex="0" role="button" aria-label="Previous slide"></div>
+                                                                                                            <div class="swiper-button-next" style="background-color: darkviolet;" tabindex="0" role="button" aria-label="Next slide"></div>
+
+
+
+
+        <!-----Trial Section--->
+
+        <div class="testimonial-buttons">
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+        
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div><h3 style="color:white">Skills <span class="yellow-dot"></span></h3>
+                <span class=" line"></span></div>
+
+                
+            
+            
+            <!---<div class="skills-container" style="color: orange; border:1px solid gold; ">
+             
+                <ul style="text-decoration: none; padding: 50px 150px 50px 50px;">
+               <li style="visibility:inherit; opacity:1; transform:matrix(1,0,0,1,0,0);">Front End Development</li><br>
+               <li>HTML,CSS,JavaScript,React,TypeScript</li><br>
+               <li>Webflow Development</li><br>
+               <li>WordPress Development</li><br>
+               <li>Web Design</li>
+               </ul>
+            </div>-->
+            <div class="skills__details" style="color: orange;">
+                <span class="border top-side" style="background-color: orange; width: 50%;"></span>
+                <span class="border right-side" style="background-color: orange; height: 100%;"></span>
+                <span class="border bottom-side" style="background-color: orange; width: 50%;"></span>
+                <span class="border left-side" style="background-color: orange; height: 100%;"></span>
+                <ul><li style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Front End Development</li>
+                    <li style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">HTML, CSS, Javascript, React, Typescript</li>
+                    <li style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Webflow Development</li>
+                    <li style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Wordpress Development</li>
+                <li style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Web Design</li>
+            </ul></div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+           <div style="text-align: right;"> 
+            <h3  style="color:white">Contact <span class="yellow-dot"></span></h3>
+            <span class=" line"></span>
+            <div class="contact-container" style="padding-bottom: 150px;">
+                <a href="mailto:petya@example.com">contact@pentyanikolova.com</a>
+                <a href="https://github.com/petya">github.com/petia182</a>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2022 | petyanikolova.com</p>
+        <div class="social-links">
+            <a href=" https://linkedin.com/in/petya"><img  src="images/linkedin.jfif"></a>
+            <a href="https://github.com/petya"><img src="images/github.jfif"></a>
+            <a href="mailto:petya@example.com"><img src="images/mail.jfif"></a>
+        </div>
+    </footer>
+   
+    <script src="script.js"></script>
+</body>
+</html>

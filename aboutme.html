@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Containers with Rotating X</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkorange;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    border-radius: 15px;
+    overflow: hidden;
+   
+}
+
+.left-section, .right-section {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    object-fit: cover;
+}
+
+.x-mark {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.x-mark:hover {
+    transform: rotate(90deg);
+}
+.about h4 span {
+    display: block;
+}
+.accent-font {
+    font-family: cursive;
+    display: inline !important;
+    font-size: 100%;
+    line-height: 50px;
+}
+.about h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+
+@media (min-width: 480px) {
+    .about h4 {
+        font-size: 16px;
+    }
+}
+.about h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+</style>
+<body>
+    <div class="x-mark">X</div>
+    <div class="container">
+        <div class="left-section">
+            
+            <h4>I'm a web developer, living and working in London. I have more than 6 years of experience in building <span class="accent-font">custom</span> websites.<br>I have worked with various clients in different business areas - corporate, fashion, hospitality, art, etc. My main goal is to create <span class="accent-font">engaging</span> and <span class="accent-font">user friendly</span> web experiences.<br>I'm also a Front End teacher at the #1 rated coding bootcamp - <a href="https://www.lewagon.com/">Le Wagon<span class="underline" style="background-color: purple;"></span></a> and a lead speaker for many of the workshops organised by them.<span>Drop me a line if you are interested in working with me!</span></h4>
+        </div>
+        <div class="right-section">
+            <div class="image-container">
+                <img src="avatar1.0a89c0a9.jpg" alt="Sample Image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
